@@ -2,7 +2,7 @@ public class EjemploEuler2 {
     public static double f(double t, double y) {
         return y - t * t + 1;
     }
-
+//Resolver dy/dt=y-t^2+1 con y(0)=0.5
     public static void main(String[] args) {
         double t0 = 0;
         double y0 = 0.5;
