@@ -21,11 +21,11 @@ Donde:
 
 Repetición: Este proceso se repite para tantos pasos como se desee, avanzando desde 𝑡0t0 hasta el tiempo final deseado.
 
-[Ejercicio 1](EjemploEuler.java)
+[Ejercicio Euler 1](EjemploEuler.java)
 
-[Ejercicio 2](EjemploEuler2.java)
+[Ejercicio Euler 2](EjemploEuler2.java)
 
-[Ejercicio 3](EjemploEuler3.java)
+[Ejercicio Euler 3](EjemploEuler3.java)
 
 
 
