@@ -23,31 +23,45 @@ Repetición: Este proceso se repite para tantos pasos como se desee, avanzando d
 
 [![300px-Aplicaci-n-del-m-todo-de-Euler.jpg](https://i.postimg.cc/wBRkhZNF/300px-Aplicaci-n-del-m-todo-de-Euler.jpg)](https://postimg.cc/yJB9KfvS)
 
-[Ejercicio 1](EjemploEuler.java)
+[Ejercicio Metodo de Euler 1](EjemploEuler.java)
 
-[Ejercicio 2](EjemploEuler2.java)
+[Ejercicio Metodo de Euler 2](EjemploEuler2.java)
 
-[Ejercicio 3](EjemploEuler3.java)
+[Ejercicio Metodo de Euler 3](EjemploEuler3.java)
 
-[Ejercicio 4](EjemploEuler4.java)
+[Ejercicio Metodo de Euler 4](EjemploEuler4.java)
 
-## Metodo de Runge-Kutta
+## Metodo de Adams-Bashforth
 
-El método de Runge-Kutta de pasos múltiples, a menudo conocido como el método de Runge-Kutta de orden superior, es una técnica popular en métodos numéricos para resolver ecuaciones diferenciales ordinarias (EDOs). Estos métodos son valiosos por su precisión y eficiencia al abordar problemas que no se pueden resolver analíticamente.
-Los métodos de Runge-Kutta de orden 𝑛n proporcionan una aproximación de la solución de una EDO de la forma:
+El método de Adams-Bashforth es un método explícito de pasos múltiples utilizado para resolver ecuaciones diferenciales ordinarias (EDOs). Este método utiliza múltiples puntos anteriores para estimar el valor de la solución en el siguiente paso. Aquí está el método de Adams-Bashforth en su forma general:
 
-y′=f(t,y),y(t0)=y0
-a través de una combinación lineal de evaluaciones de la función 𝑓 (𝑡, 𝑦) f (t, y) en varios puntos dentro del intervalo de integración.
+𝑦𝑛+1=𝑦𝑛+ℎ∑𝑖=0𝑘−1𝛽𝑖𝑓(𝑡𝑛−𝑖,𝑦𝑛−𝑖)yn+1=yn+h∑i=0k−1βif(tn−i,yn−i)
 
-[![Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg](https://i.postimg.cc/Gm4cxxmq/Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg)](https://postimg.cc/3kH5Kppv)
+donde:
 
-[Ejercicio 1](EjercicioRK1.java)
+𝑦𝑛+1yn+1 es el valor de la solución en el siguiente paso.
 
-[Ejercicio 2](EjercicioRK2.java)
+𝑦𝑛yn es el valor de la solución en el paso actual.
 
-[Ejercicio 3](EjercicioRK3.java)
+ℎh es el tamaño del paso.
 
-[Ejercicio 4](EjercicioRK4.java)
+𝑓(𝑡,𝑦)f(t,y) es la función que define la ecuación diferencial.
+
+𝑡𝑛−𝑖tn−i y 𝑦𝑛−𝑖yn−i son los puntos de tiempo y de la solución en pasos anteriores, respectivamente.
+
+𝛽𝑖βi son los coeficientes de ponderación, que dependen del orden del método.
+
+Los coeficientes 𝛽𝑖βi se derivan de la fórmula de diferenciación hacia atrás de Newton y se eligen para minimizar el error de truncamiento.
+
+[![Screen-Shot-2022-07-26-at-12-19-24-PM.png](https://i.postimg.cc/sX6NJX4S/Screen-Shot-2022-07-26-at-12-19-24-PM.png)](https://postimg.cc/BLFpSJyQ)
+
+[Ejercicio Metodo de Adams-Bashforth 1](EjercicioAdams1.java)
+
+[Ejercicio Metodo de Adams-Bashforth 2](EjercicioAdams2.java)
+
+[Ejercicio Metodo de Adams-Bashforth 3](EjercicioAdams3.java)
+
+[Ejercicio Metodo de Adams-Bashforth 4](EjercicioAdams4.java)
 
 
 ## Metodo de Taylor
@@ -67,13 +81,18 @@ Al truncar la serie después de un número finito de términos, se obtiene una a
 
 𝑦(𝑡1)≈𝑦(𝑡0)+𝑦′(𝑡0)ℎ+𝑦′′(𝑡0)2!ℎ2y(t1)≈y(t0)+y′(t0)h+2!y′′(t0)h2
 
+Implementación
+
+Para aplicar el método de Taylor, es necesario conocer las derivadas de la función 𝑓(𝑡,𝑦)f(t,y). Por ejemplo, si 𝑓(𝑡,𝑦)f(t,y) es la función de la EDO, 𝑦′(𝑡0)=𝑓(𝑡0,𝑦(𝑡0))y′(t0)=f(t0,y(t0)) y 𝑦′′(𝑡0)y′′(t0) se puede obtener diferenciando 𝑓(𝑡,𝑦)f(t,y) con respecto a 𝑡t.
+
+
 [![Image371.gif](https://i.postimg.cc/5yW3ngJv/Image371.gif)](https://postimg.cc/gX480vnk)
 
-[Ejercicio 1](EjercicioTay1.java)
+[Ejercicio Metodo de Taylor 1](EjercicioTay1.java)
 
-[Ejercicio 2](EjercicioTay2.java)
+[Ejercicio Metodo de Taylor 2](EjercicioTay2.java)
 
-[Ejercicio 3](EjercicioTay3.java)
+[Ejercicio Metodo de Taylor 3](EjercicioTay3.java)
 
-[Ejercicio 4](EjercicioTay4.java)
+[Ejercicio Metodo de Taylor 4](EjercicioTay4.java)
 
