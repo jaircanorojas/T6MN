@@ -47,6 +47,8 @@ a través de una combinación lineal de evaluaciones de la función 𝑓 (𝑡, 
 
 [Ejercicio 4](EjercicioRK4.java)
 
+[![Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg](https://i.postimg.cc/Gm4cxxmq/Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg)](https://postimg.cc/3kH5Kppv)
+
 ## Metodo de Taylor
 
 El método de Taylor es una técnica numérica para resolver ecuaciones diferenciales ordinarias (EDOs) basada en la expansión en serie de Taylor de la solución de la ecuación. Este método utiliza la serie de Taylor para aproximar la solución de la EDO en intervalos pequeños, proporcionando una forma sistemática de estimar el valor de la función en puntos sucesivos a partir de su valor en un punto inicial.
@@ -63,6 +65,8 @@ y una condición inicial 𝑦(𝑡0)=𝑦0y(t0)=y0, el método de Taylor aproxim
 Al truncar la serie después de un número finito de términos, se obtiene una aproximación de la solución. Por ejemplo, utilizando hasta la segunda derivada, la fórmula sería:
 
 𝑦(𝑡1)≈𝑦(𝑡0)+𝑦′(𝑡0)ℎ+𝑦′′(𝑡0)2!ℎ2y(t1)≈y(t0)+y′(t0)h+2!y′′(t0)h2
+
+[![Image371.gif](https://i.postimg.cc/5yW3ngJv/Image371.gif)](https://postimg.cc/gX480vnk)
 
 [Ejercicio 1](EjercicioTay1.java)
 
