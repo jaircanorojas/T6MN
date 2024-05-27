@@ -12,8 +12,6 @@ Iteración: Se utiliza la siguiente fórmula para calcular 𝑦y en cada paso �
 
 𝑦𝑛+1=𝑦𝑛+ℎ⋅𝑓(𝑡𝑛,𝑦𝑛)yn+1=yn+h⋅f(tn,yn)
 
-
-
 Donde:
 𝑡𝑛tn es el valor de tiempo en el paso 𝑛n.
 
@@ -29,7 +27,7 @@ Repetición: Este proceso se repite para tantos pasos como se desee, avanzando d
 
 [Ejercicio 3](EjemploEuler3.java)
 
-[Ejercicio 4]()
+[Ejercicio 4](EjemploEuler4.java)
 
 ## Runge-Kutta
 
@@ -41,11 +39,13 @@ a través de una combinación lineal de evaluaciones de la función 𝑓 (𝑡, 
 
 [Ejercicio 1](EjercicioRK1.java)
 
-[Ejercicio 2]()
+[Ejercicio 2](EjercicioRK2.java)
 
-[Ejercicio 3]()
+[Ejercicio 3](EjercicioRK3.java)
 
-[Ejercicio 4]()
+[Ejercicio 4](EjercicioRK4.java)
+
+
 
 
 
