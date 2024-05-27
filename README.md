@@ -29,7 +29,7 @@ Repetición: Este proceso se repite para tantos pasos como se desee, avanzando d
 
 [Ejercicio 4](EjemploEuler4.java)
 
-## Runge-Kutta
+## Metodo de Runge-Kutta
 
 El método de Runge-Kutta de pasos múltiples, a menudo conocido como el método de Runge-Kutta de orden superior, es una técnica popular en métodos numéricos para resolver ecuaciones diferenciales ordinarias (EDOs). Estos métodos son valiosos por su precisión y eficiencia al abordar problemas que no se pueden resolver analíticamente.
 Los métodos de Runge-Kutta de orden 𝑛n proporcionan una aproximación de la solución de una EDO de la forma:
@@ -45,7 +45,28 @@ a través de una combinación lineal de evaluaciones de la función 𝑓 (𝑡, 
 
 [Ejercicio 4](EjercicioRK4.java)
 
+## Metodo de Taylor
 
+El método de Taylor es una técnica numérica para resolver ecuaciones diferenciales ordinarias (EDOs) basada en la expansión en serie de Taylor de la solución de la ecuación. Este método utiliza la serie de Taylor para aproximar la solución de la EDO en intervalos pequeños, proporcionando una forma sistemática de estimar el valor de la función en puntos sucesivos a partir de su valor en un punto inicial.
 
+Concepto Básico
 
+Dada una EDO de primer orden:
+𝑑𝑦/𝑑𝑡=𝑓(𝑡,𝑦)dtdy=f(t,y)
+
+y una condición inicial 𝑦(𝑡0)=𝑦0y(t0)=y0, el método de Taylor aproxima la solución en un punto 𝑡1=𝑡0+ℎt1=t0+h usando la serie de Taylor truncada de 𝑦(𝑡)y(t) alrededor de 𝑡0t0:
+
+𝑦(𝑡)=𝑦(𝑡0)+𝑦′(𝑡0)(𝑡−𝑡0)+𝑦′′(𝑡0)2!(𝑡−𝑡0)2+𝑦′′′(𝑡0)3!(𝑡−𝑡0)3+⋯y(t)=y(t0)+y′(t0)(t−t0)+2!y′′(t0)(t−t0)2+3!y′′′(t0)(t−t0)3+⋯
+
+Al truncar la serie después de un número finito de términos, se obtiene una aproximación de la solución. Por ejemplo, utilizando hasta la segunda derivada, la fórmula sería:
+
+𝑦(𝑡1)≈𝑦(𝑡0)+𝑦′(𝑡0)ℎ+𝑦′′(𝑡0)2!ℎ2y(t1)≈y(t0)+y′(t0)h+2!y′′(t0)h2
+
+[Ejercicio 1](EjercicioTay1.java)
+
+[Ejercicio 2](EjercicioTay2.java)
+
+[Ejercicio 3](EjercicioTay3.java)
+
+[Ejercicio 4](EjercicioTay4.java)
 
