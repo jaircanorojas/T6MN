@@ -21,6 +21,8 @@ Donde:
 
 Repetición: Este proceso se repite para tantos pasos como se desee, avanzando desde 𝑡0t0 hasta el tiempo final deseado.
 
+[![300px-Aplicaci-n-del-m-todo-de-Euler.jpg](https://i.postimg.cc/wBRkhZNF/300px-Aplicaci-n-del-m-todo-de-Euler.jpg)](https://postimg.cc/yJB9KfvS)
+
 [Ejercicio 1](EjemploEuler.java)
 
 [Ejercicio 2](EjemploEuler2.java)
