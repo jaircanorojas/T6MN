@@ -27,8 +27,22 @@ Repetición: Este proceso se repite para tantos pasos como se desee, avanzando d
 
 [Ejercicio Euler 3](EjemploEuler3.java)
 
+## Método de runge-kutta
 
+El método de Runge-Kutta de pasos múltiples, a menudo conocido como el método de Runge-Kutta de orden superior, es una técnica popular en métodos numéricos para resolver ecuaciones diferenciales ordinarias (EDOs). Estos métodos son valiosos por su precisión y eficiencia al abordar problemas que no se pueden resolver analíticamente.
+Los métodos de Runge-Kutta de orden 𝑛n proporcionan una aproximación de la solución de una EDO de la forma:
 
+y′=f(t,y),y(t0)=y0
+
+a través de una combinación lineal de evaluaciones de la función 𝑓 (𝑡, 𝑦) f (t, y) en varios puntos dentro del intervalo de integración.
+
+[Ejercicio RK 1](EjemploEuler.java)
+
+[Ejercicio RK 2](EjemploEuler2.java)
+
+[Ejercicio RK 3](EjemploEuler3.java)
+
+[Ejercicio RK 4](EjemploEuler3.java)
 
 
 
