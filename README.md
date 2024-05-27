@@ -39,6 +39,8 @@ Los métodos de Runge-Kutta de orden 𝑛n proporcionan una aproximación de la 
 y′=f(t,y),y(t0)=y0
 a través de una combinación lineal de evaluaciones de la función 𝑓 (𝑡, 𝑦) f (t, y) en varios puntos dentro del intervalo de integración.
 
+[![Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg](https://i.postimg.cc/Gm4cxxmq/Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg)](https://postimg.cc/3kH5Kppv)
+
 [Ejercicio 1](EjercicioRK1.java)
 
 [Ejercicio 2](EjercicioRK2.java)
@@ -47,7 +49,6 @@ a través de una combinación lineal de evaluaciones de la función 𝑓 (𝑡, 
 
 [Ejercicio 4](EjercicioRK4.java)
 
-[![Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg](https://i.postimg.cc/Gm4cxxmq/Figura-82-Interpretacion-geometrica-del-metodo-de-Euler-hacia-adelante-Q320.jpg)](https://postimg.cc/3kH5Kppv)
 
 ## Metodo de Taylor
 
